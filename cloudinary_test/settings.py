@@ -40,7 +40,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # For HTTPS (essential in production)
 CSRF_COOKIE_SECURE = True  
 CSRF_TRUSTED_ORIGINS = [
-  '.railway.app'
+    'https://*.railway.app'
 ]
 
 
